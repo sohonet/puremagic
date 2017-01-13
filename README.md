@@ -2,7 +2,7 @@ puremagic
 =========
 
 puremagic is a pure python module that will identify a file based off it's
-magic numbers.
+magic numbers. Which is described here http://www.garykessler.net/library/file_sigs.html and the source of magic is here ftp://ftp.astron.com/pub/file/
 
 [![Build Status](https://travis-ci.org/cdgriffith/puremagic.png?branch=master)](https://travis-ci.org/cdgriffith/puremagic)
 [![Coverage Status](https://coveralls.io/repos/github/cdgriffith/puremagic/badge.svg?branch=develop)](https://coveralls.io/github/cdgriffith/puremagic?branch=develop)
@@ -31,6 +31,7 @@ Disadvantages:
 * Duplications due to small or reused magic numbers
 
 (Help fix the first two disadvantages by contributing!)
+
 
 ### Compatibility:
 
@@ -116,6 +117,7 @@ offset I don't feel comfortable including it as part of a 'magic number' library
 *Your version isn't as complete as I want it to be, where else should I look?*
 
 Look into python modules that wrap around libmagic or use something like Apache Tika.
+
 
 
 ## Acknowledgements
